@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 0 20px;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+header {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    color: white;
+}
+header h2 { margin: 0 0 10px 0; }
+header nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+header nav a:hover { color: #3b82f6; }
+main {
+    background: white;
+    padding: 30px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td { border: 1px solid #e2e8f0; padding: 12px; text-align: left; }
+th { background-color: #f8fafc; color: #0f172a; }
+.aprobado { color: #16a34a; font-weight: bold; }
+.desaprobado { color: #dc2626; font-weight: bold; }
+.badge-info { background: #e0f2fe; color: #0369a1; padding: 10px; border-left: 4px solid #0284c7; margin-bottom: 20px; border-radius: 0 4px 4px 0; }
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    color: #64748b;
+    font-size: 14px;
+}
